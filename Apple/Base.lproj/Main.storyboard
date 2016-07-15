@@ -25,7 +25,7 @@
                                     <color key="titleColor" red="1" green="0.47759454559999998" blue="0.4444331272" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="e2q-Jm-3SF" kind="modal" id="AYW-oN-eDw"/>
+                                    <segue destination="e2q-Jm-3SF" kind="modal" id="Mc8-MU-egY"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="freefont_logo_07yasashisaantique.png" translatesAutoresizingMaskIntoConstraints="NO" id="iwF-Iv-c6U">
@@ -76,8 +76,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="caughtAppleLabel" destination="zun-Yj-Znj" id="9pa-OC-mgj"/>
-                        <outlet property="timeLabel" destination="foe-GZ-78r" id="sVh-uy-jvJ"/>
+                        <outlet property="caughtAppleLabel" destination="zun-Yj-Znj" id="TXh-eb-8MK"/>
+                        <outlet property="kagoImageView" destination="Tod-9U-w3O" id="IIV-6l-NDU"/>
+                        <outlet property="timeLabel" destination="foe-GZ-78r" id="Jfb-1T-gZf"/>
                         <segue destination="iMD-6k-SnH" kind="modal" identifier="resultVC" id="f3C-hF-ldo"/>
                     </connections>
                 </viewController>
@@ -107,7 +108,7 @@
                                     <color key="titleColor" red="0.44372146750000002" green="0.97445824910000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="nOk-1J-YIV"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="rU5-dk-PKa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqp-Nt-git">
@@ -130,7 +131,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="appleCountLabel" destination="sqp-Nt-git" id="Urt-18-Udc"/>
+                        <outlet property="appleCountLabel" destination="sqp-Nt-git" id="DC6-rX-WCp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9P-Ti-JGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
